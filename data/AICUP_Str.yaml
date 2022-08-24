@@ -1,0 +1,7 @@
+train: ../dataset/AICUP/train/images  # train images (relative to 'path') 128 images
+val: ../dataset/AICUP/val/images  # val images (relative to 'path') 128 images
+test:  ../dataset/AICUP/test/images # test images (optional)
+
+nc: 4
+
+names: ['Ch-Str', 'En-Str', 'Ch-En-Str', 'Ch-Single-Str']
